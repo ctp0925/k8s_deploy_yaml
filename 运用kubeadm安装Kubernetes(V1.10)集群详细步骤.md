@@ -656,6 +656,6 @@ kubectl create -f kubernetes-dashboard.yaml
 
 https://192.168.150.186:30000/#!/login
 
-![pic](https://raw.githubusercontent.com/ctp0925/k8s_deployment/master/运用kubeadm安装Kubernetes\(V1.10\)集群详细步骤.images/1.png "")
+![pic](https://raw.githubusercontent.com/ctp0925/k8s_deployment/master/运用kubeadm安装Kubernetes\(V1.10\)集群详细步骤.images/1.jpg "")
 
 

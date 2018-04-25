@@ -653,7 +653,8 @@ kubectl create -f kubernetes-dashboard.yaml
  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
 ```
 通过firefox访问dashboard，输入token,即可登陆
-```
+
 https://192.168.150.186:30000/#!/login
 
-![TIM图片20170926104744.png](运用kubeadm安装Kubernetes\(V1.10\)集群详细步骤.images/1.png "")
+![pic](https://raw.githubusercontent.com/ctp0925/k8s_deployment/master/运用kubeadm安装Kubernetes\(V1.10\)集群详细步骤.images/1.png "")
+
